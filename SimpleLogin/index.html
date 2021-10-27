@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Simple Login</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <div class="changeColor">
+            <center>
+            <div style="background-color: #6ab04c" onclick="changeColor('#6ab04c')"></div>
+            <div style="background-color: #4834d4" onclick="changeColor('#4834d4')"></div>
+            <div style="background-color: #f9ca24" onclick="changeColor('#f9ca24')"></div>
+            <div style="background-color: #eb4d4b" onclick="changeColor('#eb4d4b')"></div>
+            <div style="background-color: #130f40" onclick="changeColor('#130f40')"></div>
+            <div style="background-color: #be2edd" onclick="changeColor('#be2edd')"></div>
+            <div style="background-color: #22a6b3" onclick="changeColor('#22a6b3')"></div>
+            </center>
+        </div>
+        
+        <div class="container">
+            <div class="lCorner">
+                <h1 id="c">Sign in</h1>
+                <form id="login">
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Password">
+                    <br><br>
+                    <span>Don't have account? <a href="#" onclick="newA();">Create new account</a></span><br>
+                    <span>Forget password? <a href="#">Click here!</a></span>
+                    <button type="submit">Login</button>
+                </form>
+                <form id="register">
+                    <input type="text" placeholder="Full name">
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Password">
+                    <input type="password" placeholder="Repeat password">
+                    <br><br>
+                    <span>Member alredy? <a href="#" onclick="SignIn()">Sign in</a></span><br>
+                    <span>Forget password? <a href="#">Click here!</a></span>
+                    <button type="submit">Register</button>
+                </form>
+            </div>
+            <div class="rCorner">
+                <h3>Simple login</h3>
+                <center>
+                <img src="images/skatter-programmer.gif" width="350px">
+                </center>
+            </div>
+        </div>
+        <div class="credits">
+        <p>Created by <span style="color: #eb4d4b">Audrius Nenartavičius</span></p>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
